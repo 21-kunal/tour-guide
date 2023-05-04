@@ -6,7 +6,7 @@ const Tour = require('./../../models/toursModel');
 dotenv.config({ path: './config.env' });
 
 const DB =
-  'mongodb+srv://kunal:Kfu9iutqpHesO70J@cluster0.s9cgemy.mongodb.net/natours?retryWrites=true&w=majority';
+  'mongodb+srv://user:<password>@cluster0.s9cgemy.mongodb.net/natours?retryWrites=true&w=majority';
 
 mongoose
   .connect(DB, {
